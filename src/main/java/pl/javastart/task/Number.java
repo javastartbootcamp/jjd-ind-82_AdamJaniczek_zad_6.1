@@ -13,6 +13,7 @@ public class Number {
         } else if (number >= 100 && number <= 200) {
             if (number % 3 == 0) {
                 showMessage("Twoja liczba jest ok");
+                result = true;
             } else {
                 showMessage("Podana liczba nie jest podzielna przez 3");
                 result = false;
